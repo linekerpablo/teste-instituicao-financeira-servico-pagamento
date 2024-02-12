@@ -34,7 +34,9 @@ git clone https://github.com/linekerpablo/teste-instituicao-financeira-servico-p
 2. Entre no diretório do serviço:
 cd teste-instituicao-financeira-servico-pagamento
 
-3. Execute o serviço usando Maven:
+3. Execute o comando docker-compose up -d para subir o serviço do RabbitMQ
+
+4. Execute o serviço usando Maven:
 ./mvnw spring-boot:run
 
 ## Processamento de Empréstimos
